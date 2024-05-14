@@ -1,0 +1,21 @@
+{
+	"name": "SentryMod",
+	"namespace": "Stanley",
+	"version_number": "1.0.0",
+	"description": "Doktor... activate my movement inhibitors",
+	"website_url": "https://github.com/RobberyBobbery/Stanley-SentryMod",
+	"dependencies": [
+		"Darkly77-Brotils",
+		"Darkly77-ContentLoader",
+		"Darkly77-ExpandedChallenges"
+	],
+	"extra": {
+		"godot": {
+			"incompatibilities": [],
+			"authors": [ "Stanley" ],
+			"compatible_mod_loader_version": [ "6.0.0" ],
+			"compatible_game_version": [ "1.0.0.3" ],
+			"config_defaults": {}
+		}
+	}
+}

@@ -1,0 +1,33 @@
+[gd_resource type="Resource" load_steps=9 format=2]
+
+[ext_resource path="res://mods-unpacked/Darkly77-ExpandedChallenges/challenges/ex_challenge_data.gd" type="Script" id=1]
+[ext_resource path="res://items/all/turret_rocket/turret_rocket_data.tres" type="Resource" id=2]
+[ext_resource path="res://items/all/turret_laser/turret_laser_data.tres" type="Resource" id=3]
+[ext_resource path="res://items/all/turret_healing/turret_healing_data.tres" type="Resource" id=4]
+[ext_resource path="res://items/all/turret_flame/turret_flame_data.tres" type="Resource" id=5]
+[ext_resource path="res://items/all/turret/turret_data.tres" type="Resource" id=6]
+[ext_resource path="res://items/all/improved_tools/improved_tools_icon.png" type="Texture" id=7]
+[ext_resource path="res://mods-unpacked/Stanley-SentryMod/content/characters/sentry/sentry_data.tres" type="Resource" id=8]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "chal_builder"
+unlocked_by_default = false
+icon = ExtResource( 7 )
+name = "CHAL_BUILDER"
+tier = 0
+value = 1
+effects = [  ]
+tracking_text = ""
+description = "Obtain all 5 turret items in one run"
+reward_type = 6
+reward = ExtResource( 8 )
+number = 0
+stat = ""
+additional_args = [  ]
+must_win_run = false
+required_danger_number = -1
+required_weapons_and = [  ]
+required_weapons_or = [  ]
+required_items_and = [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 3 ), ExtResource( 2 ) ]
+required_items_or = [  ]
